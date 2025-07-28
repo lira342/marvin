@@ -1,0 +1,31 @@
+.body{
+    background-color: white;
+    color: black;
+    margin: 0;
+    font-size: 1rem;
+}
+
+main{
+    background-color:pink;
+    width: 805px;
+    margin: 90px auto 0 auto;
+    display: grid;
+    grid-template-columns: 130px 420px 255px;
+}
+main div#logo{
+    background-color: green;;
+}
+main div#photo{
+    background-color: white;
+}
+
+main div#photo img {
+    width: 340px;
+    margin: 0 auto;
+    display: block;
+}
+
+main div#story{
+    background-color: blue;
+}
+
